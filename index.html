@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apunelaが提供するアプリのサポートページです。">
+  <title>Apunela Support</title>
+
+  <style>
+    :root {
+      --accent: #35bfc0;
+      --accent-dark: #239a9b;
+      --background: #f7fafb;
+      --card: #ffffff;
+      --text: #1f2933;
+      --subtext: #66737f;
+      --border: #e4eaee;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        "Hiragino Sans",
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        Meiryo,
+        sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 56px 24px 44px;
+      text-align: center;
+      background: linear-gradient(135deg, #e8f8fb, #e9faf5);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 0.02em;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      color: var(--subtext);
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 40px auto 64px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 24px rgba(31, 41, 51, 0.05);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+    }
+
+    a {
+      color: var(--accent-dark);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button:hover {
+      background: var(--accent-dark);
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--subtext);
+      font-size: 0.9rem;
+      padding: 0 20px 36px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Apunela Support</h1>
+    <p>Apunelaが提供するアプリのサポートページです。</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>自分で作る単語帳</h2>
+      <p>
+        「自分で作る単語帳」をご利用いただきありがとうございます。
+      </p>
+      <p>
+        アプリに関する不具合、ご意見、ご要望などがございましたら、
+        下記のメールアドレスまでお問い合わせください。
+      </p>
+
+      <a
+        class="button"
+        href="mailto:apunela.dev@gmail.com?subject=自分で作る単語帳についてのお問い合わせ"
+      >
+        メールで問い合わせる
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>お問い合わせについて</h2>
+      <p>
+        お問い合わせの際は、対象のアプリ名とお問い合わせ内容をご記載ください。
+      </p>
+      <p>
+        不具合についてのお問い合わせの場合は、
+        ご利用のiPhone機種、iOSのバージョン、発生している問題の内容などを
+        あわせてお知らせいただけると、確認がスムーズです。
+      </p>
+      <p>
+        お問い合わせ先：
+        <a href="mailto:apunela.dev@gmail.com">apunela.dev@gmail.com</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>プライバシーポリシー</h2>
+      <p>
+        「自分で作る単語帳」のプライバシーポリシーはこちらからご確認いただけます。
+      </p>
+      <p>
+        <a href="./privacy.html">プライバシーポリシーを見る →</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Apunela
+  </footer>
+</body>
+</html>
